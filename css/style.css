@@ -93,10 +93,9 @@ p {
   /* background: white; */
   padding: 0 2rem;
   height: 0rem;
-  min-height: 7vh;
+  min-height: 10vh;
   overflow: hidden;
   transition: height 1s ease-in-out;
-  margin-bottom: 0px;
   background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
@@ -133,6 +132,7 @@ p {
 }
 
 .nav .nav-items .nav-link {
+  margin-top: 1rem;
   padding: 1.5rem 1rem;
   position: relative;
   font-family: var(--Abel);
@@ -208,7 +208,8 @@ main .site-title::before{
 }
 
 main .site-title .site-background {
-  padding-top: 10rem;
+
+  padding-top: 1rem;
   text-align: center;
   color: var(--white);
 }
@@ -562,7 +563,7 @@ footer.footer .move-up span:hover {
 
 /* -----------------Viewport less then or equal to 750px------ */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
   .nav .nav-menu,
   .nav .nav-items {
     flex-direction: column;
